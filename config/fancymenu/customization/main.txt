@@ -1,0 +1,130 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -78
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = -78
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -102
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -54
+}
+
+customization {
+  identifier = %id=400346%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/overlay.png
+  orientation = mid-right
+  x = -107
+  width = 126
+  actionid = e8e67f74-32c7-460d-9dd1-737240c476c61629466065106
+  action = addtexture
+  y = -109
+  height = 136
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -71
+  actionid = ef71a768-48fd-467e-b34d-bbc40a0729e91629466088543
+  action = addtext
+  y = -106
+  scale = 1.0
+  alignment = left
+  value = Developer
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 871
+  slim = false
+  actionid = 1f529ed9-9a85-4c43-9c8e-f1f8265d43cd1629466106261
+  action = addentity
+  y = 267
+  scale = 30
+  playername = TristanPoland
+  parrot = false
+}
+
+customization {
+  orientation = mid-right
+  shadow = false
+  x = -75
+  actionid = 5fa4a00d-4707-459e-84f1-0b397fbf2e3d1629466132400
+  action = addtext
+  y = -87
+  scale = 1.0
+  alignment = left
+  value = Tristan Poland
+}
+
+customization {
+  path = resources/1d86e0b7dd8665fecd67533194bddb35e57d9a5e9102251cab2a69a143ef998033afe4e3abd4c9a5da39a3ee5e6b4b0d3255bfef95601890afd80709e997837b44e4cf02f63ab47b56cf530e.png
+  orientation = top-centered
+  x = -134
+  width = 268
+  actionid = 4f6af6d9-6e64-4b70-b2a2-abca838ca56a1629634301438
+  action = addtexture
+  y = 8
+  height = 76
+}
+
